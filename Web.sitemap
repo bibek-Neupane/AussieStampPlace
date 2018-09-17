@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+
+  <siteMapNode url="~/Default.aspx" title="Home"  description="Home">
+
+
+    <siteMapNode url="~/Pages/Default.aspx" title="Stamp Catalogs" description="stamp Catlogs">
+      <siteMapNode url="~/Pages/StampList.aspx" title="View as list"  description="View as list"/>
+      <siteMapNode url="~/Pages/StampCatalogue.aspx" title="View as catalogue"  description="View as catalogue"/>
+    </siteMapNode>
+
+    <siteMapNode url="~/Pages/Register.aspx" title="Register" description="Register"/>
+    <siteMapNode url="~/Pages/Specials.aspx" title="Specials"  description="Contact Us" />
+    <siteMapNode url="~/Pages/ChangePassword.aspx" title="Change Password"  description="About Us" />
+    
+    
+     <siteMapNode url="~/Pages/Admin/Admin.aspx" title="Admin" description="Admin">
+      <siteMapNode url="~/Pages/Admin/ManageCatalogue.aspx" title="Manage catalogue" description="Manage"/>
+      <siteMapNode url="~/Pages/Admin/AddNewUser.aspx" title="Add new user" description="Add new user"/>
+      <siteMapNode url="~/Pages/Admin/AddUserToRole.aspx" title="Add user to role" description="Add user to role"/>
+    </siteMapNode>
+
+    <siteMapNode url="~/Pages/Shopping/ShoppingCartPage.aspx" title="Shopping Cart" description="Shopping Cart"/>
+    <siteMapNode url="~/Pages/Shopping/Checkout.aspx" title="CheckOut" description="CheckOut"/>
+    
+  </siteMapNode>
+
+
+</siteMap>
